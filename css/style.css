@@ -1,7 +1,8 @@
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200;
-  max-width: 900px;
+  max-width: 900px;  
+  max-height: 900px;  
   margin: 0 auto;
 }
 
@@ -13,8 +14,7 @@ nav{
 
 nav ul li{
     list-style: none;
-    display: inline-block;
-    /* transition: 0.8s all;*/
+    display: inline-block;    
     padding: 5px 15px;    
 }
 
@@ -53,4 +53,74 @@ nav ul{
 
     .titulo{
         font-size:larger;
+        margin-top: 20px;
     }
+
+.imagen
+{
+    width: 40%;        
+    margin-top: 14px;
+    height: 500px;
+}
+
+.texto
+{
+    width: 45%;
+    vertical-align: top;     
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.imagen, .texto{
+    display:inline-block;
+}
+
+.propiedades{
+     margin-top: 45%;    
+}
+
+.precio
+{
+    color: cornflowerblue;
+    font-weight: bold;    
+}
+
+.total
+{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.linea
+{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: darkgray;
+    margin-bottom: 10px;
+}
+
+.cantidad
+{
+    margin-bottom: 0px;
+}
+
+.libro{
+    margin-left: 12%;
+}
+
+.boton
+{
+    background-color:darkcyan;
+    border: none;
+    color: white;
+     padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    margin-left: 62px;
+}
+
+.total, .boton{
+    display: inline-block;
+    margin-top: 0px;
+}
